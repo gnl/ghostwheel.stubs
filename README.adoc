@@ -1,0 +1,27 @@
+# ghostwheel.stubs
+:linkattrs:
+:toc:
+:toc-placement!:
+:hardbreaks:
+:sectanchors:
+ifdef::env-github[]
+:imagesdir: https://gnl.gitlab.io/images
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::env-github[]
+:imagesdir: ../gnl.gitlab.io/public/images
+endif::[]
+
+image:https://img.shields.io/clojars/v/gnl/ghostwheel.stubs.svg[link=https://clojars.org/gnl/ghostwheel.stubs] image:license.svg[link=https://choosealicense.com/licenses/epl-2.0] image:https://circleci.com/gh/gnl/ghostwheel.svg?style=shield["CircleCI", link="https://circleci.com/gh/gnl/ghostwheel"]
+
+This is an optional stubs artifact providing the same API as `ghostwheel.core` and `ghostwheel.tracer` but not doing anything. It isn't required or even particularly recommended – the main Ghostwheel module uses the exact same code for code-stripping in production – but it could be used to minimise the number of dependencies in a production build even further.
+
+Inspired by https://github.com/philoskim/debux-stubs.
+
+Copyright (c) 2018 George Lipov +
+Licensed under the link:https://choosealicense.com/licenses/epl-2.0/[Eclipse Public License 2.0]
+
