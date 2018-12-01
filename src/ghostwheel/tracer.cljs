@@ -1,1 +1,1 @@
-(ns ghostwheel.tracer)
+(ns ^:no-doc ghostwheel.tracer)

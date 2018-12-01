@@ -1,4 +1,4 @@
-(ns ghostwheel.core
+(ns ^:no-doc ghostwheel.core
   (:require [ghostwheel.unghost :refer [clean-defn]]))
 
 (def => :ret)
