@@ -1,4 +1,4 @@
-(defproject gnl/ghostwheel.stubs "0.3.0-SNAPSHOT"
+(defproject gnl/ghostwheel.stubs "0.3.0"
   :description "Production stubs for Ghostwheel"
   :url "https://github.com/gnl/ghostwheel.stubs"
   :scm {:name "git"
