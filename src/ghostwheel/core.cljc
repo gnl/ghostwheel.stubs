@@ -21,4 +21,5 @@
 (defmacro after-check [& _] nil)
 (defmacro check [& _] nil)
 
-
+(defmacro |> [form] form)
+(defmacro tr [form] form)
