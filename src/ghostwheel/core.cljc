@@ -1,4 +1,5 @@
 (ns ^:no-doc ghostwheel.core
+  #?(:cljs (:require-macros ghostwheel.core))
   (:require [ghostwheel.unghost :refer [clean-defn]]))
 
 (def => :ret)
