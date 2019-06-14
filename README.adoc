@@ -18,10 +18,10 @@ endif::[]
 
 image:https://img.shields.io/clojars/v/gnl/ghostwheel.stubs.svg[link=https://clojars.org/gnl/ghostwheel.stubs] image:license.svg[link=https://choosealicense.com/licenses/epl-2.0] image:https://circleci.com/gh/gnl/ghostwheel.svg?style=shield["CircleCI", link="https://circleci.com/gh/gnl/ghostwheel"]
 
-This is an optional stubs artifact for link:https://github.com/gnl/ghostwheel[Ghostwheel] providing the same API as `ghostwheel.core` and `ghostwheel.tracer` but not doing anything (other than stripping inline gspecs). It is meant for use in production to minimise the number of dependencies and the bundle size in a more reliable manner than dead code elimination.
+This is a stub artifact for link:https://github.com/gnl/ghostwheel[Ghostwheel] providing the same API as `ghostwheel.core` and `ghostwheel.tracer` but not doing anything other than stripping inline gspecs. It is meant for use in production to minimise the number of dependencies and the bundle size in a more reliable manner than dead code elimination.
 
 Inspired by https://github.com/philoskim/debux-stubs.
 
-Copyright (c) 2018 George Lipov +
+Copyright (c) 2019 George Lipov +
 Licensed under the link:https://choosealicense.com/licenses/epl-2.0/[Eclipse Public License 2.0]
 
