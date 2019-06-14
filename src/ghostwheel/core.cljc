@@ -10,6 +10,8 @@
   #?(:cljs (:require-macros ghostwheel.core))
   (:require [ghostwheel.unghost :refer [clean-defn]]))
 
+(defonce stubbed? true)
+
 (def => :ret)
 (def | :st)
 (def <- :gen)
