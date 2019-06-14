@@ -30,10 +30,5 @@
 (defmacro after-check [& _] nil)
 (defmacro check [& _] nil)
 
-(defmacro |>
-  ([expr]
-   expr)
-  ([label expr]
-   expr))
-
-(defmacro tr [& forms] `(|> ~@forms))
+(defmacro |> [expr] expr)
+(defmacro tr [expr] expr)
