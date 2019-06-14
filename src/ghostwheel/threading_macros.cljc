@@ -1,4 +1,4 @@
-(ns ghostwheel.threading-macros
+(ns ^:no-doc ghostwheel.threading-macros
   #?(:cljs (:require-macros ghostwheel.threading-macros)))
 
 (defmacro *-> [& forms] `(~'-> ~@forms))
