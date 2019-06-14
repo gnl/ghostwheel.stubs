@@ -9,7 +9,7 @@
                         ["snapshots" :clojars]]
   :dependencies [[gnl/ghostwheel.unghost "0.4.0"]]
   :profiles {:dev {:dependencies [[org.clojure/clojurescript "1.10.520"]
-                                  [org.clojure/clojure "1.10.0"]]}}
+                                  [org.clojure/clojure "1.10.1"]]}}
   :source-paths ["src"]
   :clean-targets ^{:protect false} ["target" "resources"])
 
